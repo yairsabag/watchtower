@@ -4,7 +4,7 @@
 
 Watchtower monitors your LangGraph multi-agent system in real-time and catches infinite loops before they burn through your token budget.
 
-One line to integrate. Zero config. Works today.
+One line to integrate. Zero config. Minimal runtime overhead.
 
 ## The Problem
 
@@ -29,7 +29,7 @@ Watchtower computes a **Loop Score** (0.0 → 1.0) in real-time from three signa
 | **Sequence Cycles** | Repeating patterns like A→B→A→B→A→B |
 | **Tool Call Repeats** | Same tool called with same parameters |
 
-When the score crosses a threshold — one alert, execution stops, money saved.
+When the score crosses the threshold and the pattern repeats 3+ times, one alert fires.
 
 ## Try It (30 seconds)
 
@@ -127,4 +127,4 @@ MIT — use it however you want.
 
 ---
 
-**Built because multi-agent teams deserve the same observability that infrastructure has had for decades.**
+Built because multi-agent teams need the same observability that infrastructure has had for decades.
