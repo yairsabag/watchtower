@@ -34,7 +34,7 @@ When the score crosses a threshold — one alert, execution stops, money saved.
 ## Try It (30 seconds)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/watchtower.git
+git clone https://github.com/yairsabag/watchtower.git
 cd watchtower
 pip install langgraph langchain-core
 python -m demo.loop_demo
